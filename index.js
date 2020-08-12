@@ -58,7 +58,7 @@ inqurier.prompt([
         fs.appendFile('README.md',
             `
 # ${title}
-[](https://img.shields.io/badge/license-${license}-blue.svg)
+![](https://img.shields.io/badge/license-${license}-blue.svg)
 ---
 ### ${about}
 ---
