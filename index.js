@@ -79,19 +79,19 @@ ${about}
 ---
 
 ## Installation
-    ${installation}
+${installation}
     
 ## Usage
-    ${usage}
+${usage}
     
 ## License
-    ${license}
+${license}
     
 ## Contributing
-    ${contributing}
+${contributing}
     
 ## Tests
-    ${tests}
+${tests}
     
 # Questions
 You can find me [on Github](${gitUrl}) under the username: ${gitName}. 
