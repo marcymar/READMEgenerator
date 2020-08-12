@@ -57,7 +57,7 @@ inqurier.prompt([
     .then(({ title, about, installing, usage, license, contributing, tests, gitName, gitUrl, email }) => {
         fs.appendFile('README.md',
             `
-#${title}
+# ${title}
 ---
 BADGE: https://img.shields.io/badge/license-${license}-blue.svg
 ---
@@ -78,22 +78,22 @@ ${about}
 
 ---
 
-##Installation
+## Installation
     ${installing}
     ---
-##Usage
+## Usage
     ${usage}
     ---
-##License
+## License
     ${license}
     ---
-##Contributing
+## Contributing
     ${contributing}
     ---
-##Tests
+## Tests
     ${tests}
     ---
-#Questions
+# Questions
 You can find me [on Github](${gitUrl}) under the username: ${gitName}. 
 
 You can also contact me at ${email} with any questions.
