@@ -24,8 +24,8 @@ inqurier.prompt([
     },
     {
         type: 'list',
-        name: 'license'
-        message: 'What license do you want applied to your application?'
+        name: 'license',
+        message: 'What license do you want applied to your application?',
         choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
     },
     {

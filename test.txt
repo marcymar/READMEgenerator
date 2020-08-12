@@ -28,3 +28,7 @@ Generated README needs:
 
  ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
  https://img.shields.io/badge/license-<LICENSE_NAME>-blue.svg
+
+ FOR MY ACTUAL READ ME: 
+# READMEgenerator
+Homework assignment for a readme page generator, node.js and ES6+. 
