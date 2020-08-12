@@ -1,0 +1,30 @@
+for the README.md file:
+
+#This is the heading
+
+--- line break
+
+##Using Heading 2 for sub sections
+
+italics by using _underscores_ or *asterisks*
+bold by using **2ast** or __2underscores__
+two tildes ~~ for a strikethrough~~
+
+To add a link: [a link](https://thisiswhere the ilinkwill go. com)
+
+Generated README needs:
+ title 
+ description
+ table of contents
+ installation
+ usage
+ license
+ contributing
+ tests 
+ questions < this is where the GitHub username and link to github profile
+
+ email also goes here w/ instructions on how to reach them w/ questions
+
+
+ ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+ https://img.shields.io/badge/license-<LICENSE_NAME>-blue.svg
