@@ -1,6 +1,6 @@
 
 # README Generator
-[](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
+![](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 ---
 ### With this application you'll be able to generate a clean and professional looking README page.
 ---
