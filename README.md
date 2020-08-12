@@ -32,7 +32,7 @@ APACHE2.0
 This application was made using JavaScript, ES6+ and the npm Inquirer.
     
 ## Tests
-I testing this app several times before coming to the final version of it.  The testing process ensured I had an application I was happy with.
+I tested this app several times before coming to the final version of it.  The testing process ensured I had an application I was happy with.
     
 # Questions
 You can find me [on Github](https://github.com/marcymar) under the username: marcymar. 
