@@ -26,7 +26,7 @@ inqurier.prompt([
         type: 'list',
         name: 'license',
         message: 'What license do you want applied to your application?',
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+        choices: ["MIT", "APACHE2.0", "GPL3.0", "BSD3", "None"]
     },
     {
         type: 'input',
@@ -58,28 +58,41 @@ inqurier.prompt([
         fs.appendFile('README.md',
             `
 #${title}
+---
 BADGE: https://img.shields.io/badge/license-${license}-blue.svg
-
+---
 ${about}
-
+---
 ## Table of Contents
-*[Installation](#installation)
-*[Usage](#usage)
-*[License](#license)
-*[Contributing](#contributing)
-*[Tests](#tests)
-*[Questions](#questions)
+[Installation](#installation)
+
+[Usage](#usage)
+
+[License](#license)
+
+[Contributing](#contributing)
+
+[Tests](#tests)
+
+[Questions](#questions)
+
+---
 
 ##Installation
     ${installing}
+    ---
 ##Usage
     ${usage}
+    ---
 ##License
     ${license}
+    ---
 ##Contributing
     ${contributing}
+    ---
 ##Tests
     ${tests}
+    ---
 #Questions
 You can find me [on Github](${gitUrl}) under the username: ${gitName}. 
 
