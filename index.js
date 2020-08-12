@@ -54,7 +54,7 @@ inqurier.prompt([
         message: 'What is your email?'
     },
 ])
-    .then(({ title, about, installing, usage, license, contributing, tests, gitName, gitUrl, email }) => {
+    .then(({ title, about, installation, usage, license, contributing, tests, gitName, gitUrl, email }) => {
         fs.appendFile('README.md',
             `
 # ${title}
@@ -79,20 +79,20 @@ ${about}
 ---
 
 ## Installation
-    ${installing}
-    ---
+    ${installation}
+    
 ## Usage
     ${usage}
-    ---
+    
 ## License
     ${license}
-    ---
+    
 ## Contributing
     ${contributing}
-    ---
+    
 ## Tests
     ${tests}
-    ---
+    
 # Questions
 You can find me [on Github](${gitUrl}) under the username: ${gitName}. 
 
