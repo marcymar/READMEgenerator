@@ -1,5 +1,5 @@
 const inqurier = require('inquirer')
-const Choice = require('inquirer/lib/objects/choice')
+const fs = require('fs')
 
 inqurier.prompt([
     {
@@ -55,35 +55,35 @@ inqurier.prompt([
     },
 ])
     .then(({ title, about, installing, usage, license, contributing, tests, gitName, gitUrl, email }) => {
-        appendFile('README.md',
+        fs.appendFile('README.md',
             `
-    #${title}
-    BADGE: https://img.shields.io/badge/license-${license}-blue.svg
+#${title}
+BADGE: https://img.shields.io/badge/license-${license}-blue.svg
 
-    ${about}
+${about}
 
-    ## Table of Contents
-    *[Installation](#installation)
-    *[Usage](#usage)
-    *[License](#license)
-    *[Contributing](#contributing)
-    *[Tests](#tests)
-    *[Questions](#questions)
+## Table of Contents
+*[Installation](#installation)
+*[Usage](#usage)
+*[License](#license)
+*[Contributing](#contributing)
+*[Tests](#tests)
+*[Questions](#questions)
 
-    ##Installation
-        ${installing}
-    ##Usage
-        ${usage}
-    ##License
-        ${license}
-    ##Contributing
-        ${contributing}
-    ##Tests
-        ${tests}
-    #Questions
-    You can find me [on Github](${gitURL}) under the username: ${gitName}. 
+##Installation
+    ${installing}
+##Usage
+    ${usage}
+##License
+    ${license}
+##Contributing
+    ${contributing}
+##Tests
+    ${tests}
+#Questions
+You can find me [on Github](${gitUrl}) under the username: ${gitName}. 
 
-    You can also contact me at ${email} with any questions.
+You can also contact me at ${email} with any questions.
         `, err => {
             if (err) { console.log(err) }
             console.log('README Page Generated!')
