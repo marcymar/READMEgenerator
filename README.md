@@ -1,6 +1,6 @@
 
 # README Generator
-![](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
+![](https://img.shields.io/badge/license-none-blue.svg)
 ---
 ### With this application you'll be able to generate a clean and professional looking README file.
 ---
@@ -26,7 +26,7 @@ To use this application simply enter "node index.js" into your console.
 This application is free to use.
     
 ## License
-APACHE2.0
+none
     
 ## Contributing
 This application was made using JavaScript, ES6+ and the npm Inquirer.
