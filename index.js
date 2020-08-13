@@ -92,7 +92,7 @@ ${contributing}
 ## Tests
 ${tests}
     
-# Questions
+## Questions
 You can find me [on Github](${gitUrl}) under the username: ${gitName}. 
 
 You can also contact me at ${email} with any questions.
